@@ -10,7 +10,8 @@
     "test": "jest",
     "build": "webpack",
     "prep-patch": "npm version patch && npm run test && npm run build",
-    "prep-minor": "npm version minor && npm run test && npm run build"
+    "prep-minor": "npm version minor && npm run test && npm run build",
+    "prep-major": "npm version major && npm run test && npm run build"
   },
   "keywords": [
     "react",
